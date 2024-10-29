@@ -1,5 +1,5 @@
 {
-  "name": "skanerTicket",
+  "name": "skanerticket",
   "private": true,
   "scripts": {
     "build": "turbo build",
