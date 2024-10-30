@@ -1,4 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": ["./base.json", "@vue/tsconfig/tsconfig.dom.json"]
+  "extends": ["./base.json", "@vue/tsconfig/tsconfig.dom.json"],
+  "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "preserve",
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  }
 }
