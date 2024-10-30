@@ -1,21 +1,34 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Index from "@/views/index.vue";
-import About from "@/views/about.vue";
+import Events from "@/views/events.vue";
+import Users from "@/views/users.vue";
+import Analytics from "@/views/analytics.vue";
+import Settings from "@/views/settings.vue";
 import Main from "@/layouts/main.vue";
 const routes = [
   {
     path: "/",
+    redirect: "/events",
     component: Main,
     children: [
       {
-        path: "",
-        name: "Home",
-        component: Index,
+        path: "events",
+        name: "Events",
+        component: Events,
       },
       {
-        path: "about",
-        name: "About",
-        component: About,
+        path: "users",
+        name: "Users",
+        component: Users,
+      },
+      {
+        path: "analytics",
+        name: "Analytics",
+        component: Analytics,
+      },
+      {
+        path: "settings",
+        name: "Settings",
+        component: Settings,
       },
     ],
   },
