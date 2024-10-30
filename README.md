@@ -1,11 +1,20 @@
 ## SkanerTicket
 
-prototype project!
+Prototype project!
 
-this will be dashboard connected to a qr scaner App.
+This is a full ticketing system that includes a purchase page, a dashboard to manage tickets, and a mobile app for QR scanning.
 
-in theory i should make a dash where i can manage tickets and then validate those ticket in QR Skaner App
+In theory, I should be able to create a dashboard where I can manage tickets and validate them using the QR Scanner App. All of this will be connected to a website where users can actually purchase tickets.
 
-albo...
+Later, maybe do some API to connect system to other pages?
 
-trying to lean vue and turborepo on this project xD
+Also, I’m trying to learn Vue and Turborepo through this project. xD
+
+### Tech
+
+dashboard: Vue.js
+skanerQR: ?? - solid.js?
+page: ?? - Astro.js?
+monorepo: turborepo
+
+will see when time comes;d
