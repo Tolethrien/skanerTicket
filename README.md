@@ -12,9 +12,9 @@ Also, I’m trying to learn Vue and Turborepo through this project. xD
 
 ### Tech
 
-dashboard: Vue.js
-skanerQR: ?? - solid.js?
-page: ?? - Astro.js?
-monorepo: turborepo
+- dashboard: Vue.js
+- skanerQR: ?? - solid.js?
+- page: ?? - Astro.js?
+- monorepo: turborepo
 
 will see when time comes;d
