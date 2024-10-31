@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SidebarButton from "@/components/sidebarButton.vue";
+import SidebarButton from "@/components/sidebar/sidebarButton.vue";
 </script>
 <template>
   <aside

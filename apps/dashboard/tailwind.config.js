@@ -19,6 +19,7 @@ const config = {
       boxShadow: {
         "window-4": "4px 4px 4px 0 rgba(0, 0, 0, 0.5)",
         "window-6": "6px 6px 5px 0 rgba(0, 0, 0, 0.5)",
+        "button-inner": "inset 2px 2px 4px 0 rgba(0, 0, 0, 0.25)",
       },
     },
   },
